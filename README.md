@@ -16,7 +16,9 @@ A low-level minimalistic webapp for booking tickets for events written with Fast
 
 <h2>Setup</h2>
 <ul>
-  <li>Create a new Python virtual environment</li>
+  <li>Create a new Python virtual environment.</li>
   <li>Install dependencies: pip install -r requirements.txt</li>
-  <li>Run: fastapi dev main.py</li>
+  <li>Create a new Postgres database and run database/init.sql to create the tables.</li>
+  <li>Consult the config.py file to find the environment variables that are in use. Create a env file in the root folder and set the variables.</li>
+  <li>Consult the setup.sh file to find out how to run the server.</li>
 </ul>
